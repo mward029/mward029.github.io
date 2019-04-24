@@ -1,0 +1,72 @@
+body
+{
+  /* you better change this stuff */
+  margin: 0;
+  font-family: Helvetica;
+  color: indigo;
+  background-color: lightpink;
+  font-size: 20px;
+}
+
+a {
+  color: #8A084B
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+img{
+  align-content: center;
+  max-width: 50%;
+  float: right;
+}
+
+.button{
+  float: left;
+}
+
+ul.nav {
+  list-style-type: none;
+  text-align: center;
+  background-color: #8A084B;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul.nav li{
+  display: inline;
+  padding: 5px;
+
+}
+
+ul.nav li a {
+  color: #FFFFFF;
+}
+
+ul.nav li a:hover {
+  background-color: #FFD0D7;
+  color: indigo;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+main {
+  margin: 75px;
+}
+
+.w3c {
+  display: inline;
+}
+
+footer {
+  margin: 20px;
+}
