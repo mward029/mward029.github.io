@@ -1,0 +1,149 @@
+body{
+  margin: 0;
+  font-family: Helvetica Neue, Arial;
+  background-color: white;
+  color: black;
+}
+
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  background-color: black;
+  font-weight: bold;
+  margin: 0;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul li{
+  display: inline;
+}
+
+nav ul li a{
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 10px;
+}
+
+nav ul li a:hover{
+  text-shadow:0 0 10px #ffffff, 0 0 10px #ffffff, 0 0 5px #ffffff, 0 0 3px #ffffff;
+}
+
+nav ul li a.active {
+  background-color: #FE947D;
+}
+
+main {
+  margin: 80px 80px 40px 80px;
+}
+
+a {
+  color: #FE947D;
+}
+
+iframe {
+  border: 0;
+  background-color: transparent;
+}
+.falbum {
+  background-color: #647CF5;
+  color: white;
+  padding: 20px;
+}
+.intro {
+  background-color: #FE947D;
+  padding: 5px 5px 5px 5px;
+  overflow: hidden;
+  border-radius: 10px;
+  color: white;
+}
+
+.logo {
+  float: left;
+}
+
+.logoimg {
+  width: 20px;
+  height: 20px;
+}
+
+.headimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  top: 0;
+  height: auto;
+}
+
+.floatright {
+  float: right;
+  clear: left;
+  color: gray;
+  font-size: 75%;
+}
+
+.playlist {
+  clear: left;
+  float: right;
+  margin-left: 60px;
+}
+
+.thumbnail {
+  float: left;
+  margin: 5px 10px 0px 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.spotifythumb {
+	float: left;
+	margin: 5px 10px 0px 5px;
+}
+
+
+.footercontent {
+  margin: 20px 20px 0px 40px;
+  color: white;
+}
+
+.w3c {
+  display: inline;
+}
+
+a.hoverlink {
+  color: black;
+}
+
+a.hoverlink:hover {
+  color: #FE947D;
+}
+
+.center {
+  text-align: center;
+}
+
+.promo {
+  width: 300px;
+  height: 380px;
+}
+
+#margin {
+  display: flex;
+  justify-content: center;
+}
+
+#promos {
+  display: inline;
+}
+
+footer{
+  background-color: #FE947D;
+  margin-bottom: auto;
+  text-align: center;
+}
