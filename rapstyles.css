@@ -130,7 +130,7 @@ a.hoverlink:hover {
 
 .promo {
   width: 300px;
-  height: 380px;
+  height: 381px;
 }
 
 #margin {
@@ -139,7 +139,8 @@ a.hoverlink:hover {
 }
 
 #promos {
-  display: inline;
+  text-align: center;
+  position: relative;
 }
 
 footer{
