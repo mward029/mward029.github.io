@@ -75,6 +75,29 @@ table a {
   color: white;
   padding: 20px;
 }
+
+.article {
+  background-color: #7D91F7;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.article2 {
+  background-color: #8EC38D;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+.article a, .article2 a {
+  color: white;
+}
+
+.extrapadding {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
 .intro {
   background-color: #FE947D;
   padding: 5px 5px 5px 5px;
@@ -153,6 +176,15 @@ a.hoverlink:hover {
 .promo {
   width: 300px;
   height: 381px;
+}
+
+.mailto {
+  color: white;
+  text-decoration: none;
+}
+
+.mailto:hover {
+  text-decoration: underline;
 }
 
 #margin {
