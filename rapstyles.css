@@ -70,6 +70,11 @@ table a {
   color: #f77356;
 }
 
+iframe {
+  border: none;
+  overflow: hidden;
+}
+
 .falbum {
   background-color: #647CF5;
   color: white;
@@ -89,8 +94,13 @@ table a {
   padding: 20px;
   color: white;
 }
+
 .article a, .article2 a {
   color: white;
+}
+
+.resize {
+  max-width: 75%;
 }
 
 .extrapadding {
